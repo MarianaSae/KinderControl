@@ -1,0 +1,67 @@
+body{
+    background:#f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== NAVBAR DEFINITIVO ===== */
+
+.custom-navbar{
+    background:#34495e !important;
+}
+
+/* texto navbar */
+.custom-navbar .navbar-brand,
+.custom-navbar a{
+    color:white !important;
+    font-weight:600;
+}
+
+/* hover */
+.custom-navbar a:hover{
+    color:#ecf0f1 !important;
+}
+
+/* TARJETAS */
+.card{
+    border:none;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+/* BOTONES */
+.btn-primary{
+    background:#4CAF50;
+    border:none;
+}
+
+.btn-primary:hover{
+    background:#43a047;
+}
+
+/* TABLAS */
+.table{
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.table th{
+    background:#34495e;
+    color:white;
+}
+
+/* INPUTS */
+.form-control{
+    border-radius:8px;
+}
+
+/* TITULOS */
+h3,h4{
+    color:#2c3e50;
+    font-weight:600;
+}
